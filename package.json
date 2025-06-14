@@ -1,0 +1,28 @@
+{
+  "name": "syeda-kainat_shipin-assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:grpc-server": "ts-node grpc/grpc-server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1",
+    "@types/pg": "^8.15.4",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.7.15",
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^16.5.0",
+    "pg": "^8.16.0"
+  }
+}
